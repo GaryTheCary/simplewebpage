@@ -1,0 +1,23 @@
+#title{
+    top: 1.0em;
+    color: white;
+    position: relative;
+}
+
+#instruction{
+    top: 0.5em;
+    left: 2em;
+    
+    color: white;
+    position: relative;
+    font-size: 12px;
+}
+
+#logoBlock{
+    margin-top: 13.0em;
+}
+.loginbtn{
+    position: relative;
+    margin-top: 1.5em;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+head
+  title Machinima Website
+
+body
+
+template(name="login")
+  img(src="/assets/webBg.png" class="bg")
+  div(class="wow slideInRight" data-wow-duration="3s" id="secondBtn")
+    div(class="left floated right aligned two wide column")
+      img(class="myimg" src="/assets/webIcon.png")
+      p(id="instruction") click me
+  div(class="wow slideInLeft Center-Container" data-wow-duration="2s" id="logoBlock")
+    img(class="ui tiny centered image " src="/assets/webLogo.png")
+    p(id="title" align="center" class="wow slideInUp" data-wow-duration="3s") Here is for Program!
+  div(class="wow slideInUp" data-wow-duration="3s" id="firstBtn")    
+    div(class="loginbtn")
+      div(class="ui inverted button")
+        +loginButtons
+
+
+template(name="simplewebpage")
+  video(autoplay poster="/assets/background.jpg" id="bgvid" loop src="/assets/Machinima.mp4" type="video/mp4")
+  div(id="polina" class="wow slideInRight" data-wow-duration="2s")
+    h1 I Miss You
+    p filmed and created by Gary Zheng
+    p
+     a(href="http://www.xiangrenzheng.com") git code
+    p "I Miss You" is a piece of machinima that was created by Unity 5 with C# and Javascript. All image effects are created in Unity, no post production has been done in professional softwares like After Effect, etc.  
+    button(id="pausedbtn") Pause
+    button(id="pausedbtn")
+      +loginButtons
+                    
+                  
+                  
+                  
+                
